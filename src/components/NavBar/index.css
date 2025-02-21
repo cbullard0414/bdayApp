@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+#navbar{
+    width: 100vw;
+    height: 222px;
+    background-color: #001d4a;
+    color: #ffffff;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Title{
+    font-family: 'Aboreto';
+    margin-top: 0px;
+    margin-left: 35vw;
+    font-size: 40px;
+    
+}
+
+#addbutton{
+    font-family: 'Aboreto';
+    /* align-items: right; */
+    margin-right: 5vw;
+    width: 100px;
+    text-wrap: wrap;
+    text-align: right;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+#addbutton:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+#addbutton:active{
+    text-decoration: underline;
+}
+
+#homebutton{
+    font-family: 'Aboreto';
+    /* align-items: right; */
+    margin-left: 5vw;
+    width: 100px;
+    text-wrap: wrap;
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    color: white;
+}
