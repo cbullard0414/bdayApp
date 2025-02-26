@@ -7,43 +7,69 @@
     color: #ffffff;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0;
-    padding-top: 5%;
+    grid-template-rows: auto;
 }
 
 #Title{
     font-family: 'Aboreto';
     font-size: 40px;
     grid-column: 2 3;
+    text-align: center;
     justify-content: center;
-    align-self: center;
 }
 
 #addbutton{
     font-family: 'Aboreto';
-    width: 100px;
     text-wrap: wrap;
-    text-align: right;
+    text-align: center;
     color: white;
     grid-column: 3 4;
-    justify-content: grid;
+    justify-content: center;
 }
 
-#addbutton:hover{
+        #addbutton:hover{
+            color: aqua;
+            cursor: pointer;
+        }
+
+        #addbutton:active{
+            text-decoration: underline;
+        }
+
+#homebutton{
+    font-family: 'Aboreto';
+    text-wrap: wrap;
+    text-align: center;
+    color: white;
+    grid-column: 1 2;
+
+}
+
+#homebutton:hover{
     color: aqua;
     cursor: pointer;
 }
 
-#addbutton:active{
+#homebutton:active{
     text-decoration: underline;
 }
 
-#homebutton{
-    font-family: 'Aboreto';
-    width: 100px;
-    text-wrap: wrap;
-    text-align: left;
-    color: white;
-    grid-column: 1 2;
+#homediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titlediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#adddiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }

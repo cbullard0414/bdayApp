@@ -2,7 +2,7 @@ function Main(){
     return(
         <div>
             <h1>
-                Maine
+                Main
             </h1>
         </div>
     )

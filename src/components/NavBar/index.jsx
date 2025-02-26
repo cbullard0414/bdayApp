@@ -6,21 +6,29 @@ function NavBar(){
     return (
         <div id="navbar">
 
+            <div id="homediv">
+                <Link to='/'>
             <h2 id='homebutton'>
                 Home
             </h2>
+                </Link>
+            </div>
 
+            <div id="titlediv">
             <Link to='/'>
             <h1 id='Title'>
                 Birthday Tracker
             </h1>
             </Link>
+            </div>
             
+            <div id="adddiv">
             <Link to='/add'>
             <h2 id='addbutton'>
-                Add a Birthday
+                Add a <br/> Birthday
             </h2>
             </Link>
+            </div>
 
         </div>
         
