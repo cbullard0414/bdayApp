@@ -22,8 +22,127 @@
 }
 
 #Body{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
     text-align: center;
 }
+
+#userfieldlogin{
+    height: 35px;
+    width: 300px;
+    background-color: #8f748a;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Aboreto";
+    font-size: 30px;    
+    align-items: center;
+}
+
+#passfieldlogin{
+    height: 35px;
+    width: 300px;
+    background-color: #8f748a;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Aboreto";
+    font-size: 30px;
+    align-items: center;
+}
+
+#userfieldsignup{
+    height: 35px;
+    width: 300px;
+    background-color: #8f748a;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Aboreto";
+    font-size: 30px;    
+    align-items: center;
+}
+
+#passfieldsignup{
+    height: 35px;
+    width: 300px;
+    background-color: #8f748a;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Aboreto";
+    font-size: 30px;
+    align-items: center;
+}
+
+#AccountBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'Aboreto';
+}
+
+#UsernameFieldLogin{
+    font-family: 'Aboreto';
+}
+
+#PasswordFieldLogin{
+    font-family: 'Aboreto';
+    grid-row: 2 / 3;
+}
+
+#PasswordFieldSignup{
+    grid-row: 2 3;
+}
+
+#loginsubmit{
+    display: grid;
+    grid-row: 3/5;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginbutton{
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    font-family: "Aboreto";
+    font-weight: 200;
+    font-size: 120%;
+    border-color: #8f748a;
+    background-color: #001d4a;
+    color: white;
+}
+
+#loginbutton:hover{
+    cursor: pointer;
+}
+
+#SignupBody{
+    font-family: 'Aboreto';
+}
+
+#passconfirmfield{
+    height: 35px;
+    width: 300px;
+    background-color: #8f748a;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Aboreto";
+    font-size: 30px;
+    align-items: center;
+}
+
+#signupbutton{
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    font-family: "Aboreto";
+    font-weight: 200;
+    font-size: 120%;
+    border-color: #8f748a;
+    background-color: #001d4a;
+    color: white;
+}
+
+#signupsubmit{
+    display: grid;
+    grid-row: 4/6;
+    align-items: center;
+    justify-content: center;
+}
+
