@@ -6,10 +6,10 @@ function NavBar(){
     return (
         <div id="navbar">
 
-            <div id="homediv">
-                <Link to='/'>
-            <h2 id='homebutton'>
-                Home
+            <div id="logindiv">
+                <Link to='/account'>
+            <h2 id='loginbutton'>
+                Log In/Sign Up
             </h2>
                 </Link>
             </div>

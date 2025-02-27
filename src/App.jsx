@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import Form from './components/Form'
 import Main from './components/Main'
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import LoginSignup from './components/Login-Signup'
 // import {Routes, Route} from 'react-router'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/add' exact = {true} element= {<Form/>}/>
         {/* <Form/> */}
         <Route path='/' exact = {true} element= {<Main/>}/>
+        <Route path='/account' exact = {true} element= {<LoginSignup/>}/>
       </Routes>
       </BrowserRouter>
     </>

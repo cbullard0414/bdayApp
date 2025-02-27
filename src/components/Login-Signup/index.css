@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+
+#Headers{
+    font-family: "Aboreto";
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Signup{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#Login{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#Body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}

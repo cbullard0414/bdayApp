@@ -36,7 +36,7 @@
             text-decoration: underline;
         }
 
-#homebutton{
+#loginbutton{
     font-family: 'Aboreto';
     text-wrap: wrap;
     text-align: center;
@@ -45,16 +45,16 @@
 
 }
 
-#homebutton:hover{
+#loginbutton:hover{
     color: aqua;
     cursor: pointer;
 }
 
-#homebutton:active{
+#loginbutton:active{
     text-decoration: underline;
 }
 
-#homediv{
+#logindiv{
     display: flex;
     justify-content: center;
     align-items: center;
