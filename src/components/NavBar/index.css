@@ -36,7 +36,7 @@
             text-decoration: underline;
         }
 
-#loginbutton{
+#accountbutton{
     font-family: 'Aboreto';
     text-wrap: wrap;
     text-align: center;
@@ -45,12 +45,12 @@
 
 }
 
-#loginbutton:hover{
+#accountbutton:hover{
     color: aqua;
     cursor: pointer;
 }
 
-#loginbutton:active{
+#accountbutton:active{
     text-decoration: underline;
 }
 

@@ -8,7 +8,7 @@ function NavBar(){
 
             <div id="logindiv">
                 <Link to='/account'>
-            <h2 id='loginbutton'>
+            <h2 id='accountbutton'>
                 Log In/Sign Up
             </h2>
                 </Link>
