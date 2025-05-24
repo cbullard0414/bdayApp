@@ -3,7 +3,7 @@
 #navbar{
     width: 100vw;
     height: 222px;
-    background-color: #001d4a;
+    background-color: dodgerblue;
     color: #ffffff;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -140,6 +140,10 @@
     color: white;
 }
 
+#signupbutton:hover{
+    cursor: pointer;
+}
+
 #signupsubmit{
     display: grid;
     grid-row: 4/6;
