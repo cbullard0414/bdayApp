@@ -11,7 +11,7 @@
 }
 
     #bodycontent{
-        background-color: #ad9baa;
+        background-color: gray;
         width: 40%;
         /* max-height: 100%; */
         display: flex;
@@ -36,7 +36,7 @@
             #inputfield{
                 height: 35px;
                 width: 300px;
-                background-color: #8f748a;
+                background-color: white;
                 border-radius: 20px;
                 text-align: center;
                 font-family: "Aboreto";
@@ -67,10 +67,10 @@
     }
 
     #calendar{
-        background-color: #8f748a;
+        background-color: white;
         border-radius: 20px;
         font-family: 'Aboreto';
-        color: #ffffff;
+        color: black;
     }
 
 
@@ -86,7 +86,7 @@
             font-family: "Aboreto";
             font-weight: 200;
             font-size: 120%;
-            border-color: #8f748a;
+            border-color: darkgray;
             background-color: #001d4a;
             color: white;
         }

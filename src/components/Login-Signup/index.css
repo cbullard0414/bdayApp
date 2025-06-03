@@ -28,7 +28,7 @@
 #userfieldlogin{
     height: 35px;
     width: 300px;
-    background-color: #8f748a;
+    background-color: white;
     border-radius: 20px;
     text-align: center;
     font-family: "Aboreto";
@@ -39,7 +39,7 @@
 #passfieldlogin{
     height: 35px;
     width: 300px;
-    background-color: #8f748a;
+    background-color: white;
     border-radius: 20px;
     text-align: center;
     font-family: "Aboreto";
@@ -50,7 +50,7 @@
 #userfieldsignup{
     height: 35px;
     width: 300px;
-    background-color: #8f748a;
+    background-color: white;
     border-radius: 20px;
     text-align: center;
     font-family: "Aboreto";
@@ -61,7 +61,7 @@
 #passfieldsignup{
     height: 35px;
     width: 300px;
-    background-color: #8f748a;
+    background-color: white;
     border-radius: 20px;
     text-align: center;
     font-family: "Aboreto";
@@ -103,7 +103,7 @@
     font-family: "Aboreto";
     font-weight: 200;
     font-size: 120%;
-    border-color: #8f748a;
+    border-color: darkgray;
     background-color: #001d4a;
     color: white;
 }
@@ -120,7 +120,7 @@
 #passconfirmfield{
     height: 35px;
     width: 300px;
-    background-color: #8f748a;
+    background-color: white;
     border-radius: 20px;
     text-align: center;
     font-family: "Aboreto";
@@ -135,7 +135,7 @@
     font-family: "Aboreto";
     font-weight: 200;
     font-size: 120%;
-    border-color: #8f748a;
+    border-color: darkgray;
     background-color: #001d4a;
     color: white;
 }
